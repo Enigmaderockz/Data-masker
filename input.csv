@@ -8,3 +8,6 @@ UNBVC2f345|23|45646|5.45678|2023-04-05|coll|pol|sdc|sfss|add adad|sdfsfsfss|4646
 UNBVC2f345|23|45646|5.45678|2023-04-05|coll|pol|sdc|sfss|add adad|sdfsfsfss|46464646474|sjfjfjfjfjfjf
 UNBVC2f345|23|45646|5.45678|2023-04-05|coll|pol|sdc|sfss|add adad|sdfsfsfss|46464646474|sjfjfjfjfjfjf
 TDR DHH
+
+sed '1,2!b;/^$/d' filename | awk '!a[$1]++'
+
